@@ -7,7 +7,7 @@ import { Navigation } from './routes';
 const App = () => {
   return (
     <NavigationContainer>
-      <Navigation />
+      <Navigation></Navigation>
     </NavigationContainer>
   );
 };
