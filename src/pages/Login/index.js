@@ -36,7 +36,7 @@ const Login = ({ navigation }) => {
           style={styles.boxShadow}
           title="Cadastro"
           type="button"
-          onPress={() => navigation.navigate('Register')}
+          onPress={() => navigation.navigate('Tab', { screen: 'Main' })}
         >
           <TextButton>Entrar</TextButton>
         </Button>
