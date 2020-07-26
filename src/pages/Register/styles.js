@@ -1,14 +1,13 @@
 import styled from 'styled-components/native';
 
 export const Input = styled.TextInput`
-  border: 1px solid #eeeeee;
+  border: none;
   width: 280px;
   height: 42px;
   padding: 10px;
   margin-top: 10px;
   border-radius: 8px;
   background-color: #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 `;
 
 export const Button = styled.TouchableOpacity`
@@ -26,7 +25,6 @@ export const TextButton = styled.Text`
   font-weight: bold;
   font-size: 20px;
 `;
-export const Text = styled.TextInput``;
 
 export const Container = styled.KeyboardAvoidingView`
   background-color: #fff;
