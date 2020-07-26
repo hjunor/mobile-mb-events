@@ -24,7 +24,7 @@ export function Navigation() {
             backgroundColor: '#fff',
             elevation: 0,
           },
-
+          headerShown: false,
           headerTintColor: '#000222',
           headerTitleStyle: {
             fontWeight: 'bold',
@@ -39,6 +39,7 @@ export function Navigation() {
             backgroundColor: '#fff',
             elevation: 0,
           },
+          headerShown: false,
           headerTitleStyle: {
             fontWeight: 'bold',
           },
@@ -53,7 +54,7 @@ export function Navigation() {
             backgroundColor: '#fff',
             elevation: 0,
           },
-          headerBackImage: false,
+          headerShown: false,
           headerTitleStyle: {
             fontWeight: 'bold',
           },
