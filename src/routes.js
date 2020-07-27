@@ -1,14 +1,18 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
+
+import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 import Main from './pages/Main/index';
 import Login from './pages/Login/index';
 import Profile from './pages/Profile/index';
 import Register from './pages/Register/index';
 import Home from './pages/Home/index';
-import { Settings } from 'react-native';
+import Event from './pages/Event/index';
+import EventRegister from './pages/EventRegister/index';
 
 const Tabs = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -63,6 +67,36 @@ export function Navigation() {
         component={Register}
       />
       <Stack.Screen
+        name="Event"
+        options={{
+          title: '',
+          headerStyle: {
+            backgroundColor: '#fff',
+            elevation: 0,
+          },
+          headerShown: false,
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}
+        component={Event}
+      ></Stack.Screen>
+      <Stack.Screen
+        name="EventRegister"
+        options={{
+          title: '',
+          headerStyle: {
+            backgroundColor: '#fff',
+            elevation: 0,
+          },
+          headerShown: false,
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}
+        component={EventRegister}
+      ></Stack.Screen>
+      <Stack.Screen
         options={{
           title: '',
           headerStyle: {
@@ -77,21 +111,40 @@ export function Navigation() {
         name="Tab"
       >
         {() => (
-          <Tabs.Navigator>
-            <Tabs.Screen name="Main" component={Main} />
-            <Tabs.Screen name="Profile" component={Profile} />
+          <Tabs.Navigator
+            tabBarOptions={{
+              style: {
+                backgroundColor: '#1A1946',
+              },
+              tabStyle: {
+                width: 100,
+                height: 60,
+              },
+            }}
+          >
+            <Tabs.Screen
+              options={{
+                tabBarLabel: '',
+                tabBarIcon: ({ color }) => (
+                  <SimpleLineIcons name="home" color="#FFF" size={30} />
+                ),
+              }}
+              name="Main"
+              component={Main}
+            />
+            <Tabs.Screen
+              options={{
+                tabBarLabel: '',
+                tabBarIcon: ({ color }) => (
+                  <FontAwesome name="user-o" color="#FFF" size={30} />
+                ),
+              }}
+              name="Profile"
+              component={Profile}
+            />
           </Tabs.Navigator>
         )}
       </Stack.Screen>
     </Stack.Navigator>
   );
 }
-
-// export function TabNavigation() {
-//   return (
-//     <Tabs.Navigator>
-//       <Tabs.Screen name="Profile" component={Profile} />
-//       <Tabs.Screen name="Main" component={Main} />
-//     </Tabs.Navigator>
-//   );
-// }
