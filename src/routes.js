@@ -69,30 +69,32 @@ export function Navigation() {
       <Stack.Screen
         name="Event"
         options={{
-          title: '',
+          title: 'Evento',
           headerStyle: {
-            backgroundColor: '#fff',
+            backgroundColor: '#FFF',
             elevation: 0,
           },
-          headerShown: false,
           headerTitleStyle: {
             fontWeight: 'bold',
+            color: '#2f55d0',
           },
+          headerTitleAlign: 'center',
         }}
         component={Event}
       ></Stack.Screen>
       <Stack.Screen
         name="EventRegister"
         options={{
-          title: '',
+          title: 'Cadastro de Evento',
           headerStyle: {
-            backgroundColor: '#fff',
+            backgroundColor: '#FFF',
             elevation: 0,
           },
-          headerShown: false,
           headerTitleStyle: {
             fontWeight: 'bold',
+            color: '#2f55d0',
           },
+          headerTitleAlign: 'center',
         }}
         component={EventRegister}
       ></Stack.Screen>
