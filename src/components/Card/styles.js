@@ -24,7 +24,7 @@ export const WrapperText = styled.View`
 `;
 
 export const Image = styled.Image`
-  height: 94px;
+  height: 105px;
   width: 164px;
   border-radius: 8px;
 `;

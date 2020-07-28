@@ -14,13 +14,12 @@ import {
 const Card = ({ navigation }) => {
   return (
     <Container
-      onClick={() => navigation.navigate('Event')}
+      onPress={() => navigation.navigate('Event')}
       style={styles.boxShadow}
     >
       <WrapperImage>
         <Image source={image} />
       </WrapperImage>
-
       <WrapperText>
         <TextHours>14 out - 19:00</TextHours>
         <TextDescription>
