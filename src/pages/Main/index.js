@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../../components/Card/index';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 
-import { StyleSheet, ScrollView, View } from 'react-native';
+import { StyleSheet, ScrollView, View, Text } from 'react-native';
 import {
   TextLogo,
   WrapperTextLogo,
@@ -21,9 +21,11 @@ const Main = ({ navigation }) => {
   return (
     <Container>
       <WrapperHead>
-        <SearchInput style={styles.boxShadow}>
-          <AntDesign name="search1" color="#555555" size={19} />
-        </SearchInput>
+        <SearchInput
+          placeholder="  Search"
+          style={styles.boxShadow}
+        ></SearchInput>
+
         {user === true ? (
           <CreateButton
             onPress={() => navigation.navigate('EventRegister')}
@@ -48,7 +50,7 @@ const Main = ({ navigation }) => {
         </Button>
       </WrapperButton>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Card />
+        <Card navigation={navigation} />
         <Card />
         <Card />
         <Card />
