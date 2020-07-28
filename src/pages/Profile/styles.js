@@ -24,7 +24,6 @@ export const Text = styled.Text`
 export const WrapperText = styled.View`
   background-color: #1a1946;
   color: #fff;
-
   justify-content: center;
   width: 280px;
   height: 50px;
@@ -40,7 +39,7 @@ export const Button = styled.TouchableOpacity`
   margin: 4px;
   width: 200px;
   height: 50px;
-  border-radius: 4px;
+  border-radius: 8px;
   align-items: center;
   justify-content: center;
 `;
@@ -49,7 +48,7 @@ export const TextButton = styled.Text`
   font-weight: bold;
 `;
 export const WrapperHead = styled.View`
-  margin-top: 20px;
+  margin-top: 0px;
 `;
 export const TextHead = styled.Text`
   color: #2f55d0;
