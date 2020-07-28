@@ -5,6 +5,7 @@ INJECTED from /home/heberth/Documents/mobile-mb-events/android/app/src/main/Andr
 INJECTED from /home/heberth/Documents/mobile-mb-events/android/app/src/main/AndroidManifest.xml:1:1-27:12
 INJECTED from /home/heberth/Documents/mobile-mb-events/android/app/src/main/AndroidManifest.xml:1:1-27:12
 MERGED from /home/heberth/Documents/mobile-mb-events/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-vector-icons] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.flipper:flipper:0.37.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
@@ -13,7 +14,6 @@ MERGED from [:react-native-gesture-handler] /home/heberth/Documents/mobile-mb-ev
 MERGED from [:react-native-reanimated] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-vector-icons] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.2] /home/heberth/.gradle/caches/transforms-2/files-2.1/803001a3bdf0285f8ac690ab3c7045de/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/heberth/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -160,6 +160,8 @@ uses-sdk
 INJECTED from /home/heberth/Documents/mobile-mb-events/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/heberth/Documents/mobile-mb-events/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/heberth/Documents/mobile-mb-events/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.flipper:flipper:0.37.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.37.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
@@ -176,8 +178,6 @@ MERGED from [:react-native-safe-area-context] /home/heberth/Documents/mobile-mb-
 MERGED from [:react-native-safe-area-context] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/heberth/Documents/mobile-mb-events/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.2] /home/heberth/.gradle/caches/transforms-2/files-2.1/803001a3bdf0285f8ac690ab3c7045de/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.2] /home/heberth/.gradle/caches/transforms-2/files-2.1/803001a3bdf0285f8ac690ab3c7045de/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/heberth/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
